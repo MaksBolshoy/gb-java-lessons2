@@ -12,7 +12,7 @@ public class BubbleSort {
     // int[] numbers = {5, 3, 8, 6, 9, 2, 1, 7, 4};
 
 
-    public static void sort() throws IOException {
+    public  void sort() throws IOException {
         int[] numbers = {7, 3, 5, 1, 9, 3, 1, 7, 5};
 
         // записываем исходный массив в лог-файл

@@ -4,9 +4,10 @@ package baza.dom1;
 
 import com.github.cliftonlabs.json_simple.JsonArray;
 import netscape.javascript.JSObject;
+import org.json.simple.JSONObject;
 
 public class Osort {
-   // JsonArray
+   //JSONObject
 //    public static void main(String[] args) {
 //        String jsonString = "[{\"фамилия\":\"Иванов\",\"оценка\":\"5\",\"предмет\":\"Математика\"}, {\"фамилия\":\"Петрова\",\"оценка\":\"4\",\"предмет\":\"Информатика\"}, {\"фамилия\":\"Краснов\",\"оценка\":\"5\",\"предмет\":\"Физика\"}]";
 //        Gson gson = new Gson();

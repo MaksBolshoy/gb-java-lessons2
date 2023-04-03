@@ -8,8 +8,10 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-       // BubbleSort.sort();
-        StudentSort.sort();
+
+        //StudentSort.sort();
+        BubbleSort sorter =new BubbleSort();
+        sorter.sort();
     }
 
 
