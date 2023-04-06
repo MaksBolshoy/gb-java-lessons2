@@ -7,32 +7,14 @@ package baza.dom4;
 
 import java.util.LinkedList;
 
-//public class ReverseLinkedList {
-    //public static LinkedList reverseLinkedList() {
-        //LinkedList reversed = new LinkedList();
-        //for (int i = list.size() - 1; i >= 0; i--) {
-           // reversed.add(list.get(i));
-        //}
-       // return reversed;
-    //}
+public class ReverseLinkedList {
+    public static LinkedList<Integer> reverseLinkedList(LinkedList<Integer> list) {
+        LinkedList<Integer> reversed = new LinkedList<>();
+        for (int i = list.size() - 1; i >= 0; i--) {
+            reversed.add(list.get(i));
+        }
+        return reversed;
+    }
 
-    //public static class Queue {
-        //private LinkedList list;
 
-        //public Queue() {
-            //list = new LinkedList();
-        //}
-
-        //public void enqueue(Object element) {
-           // list.add(element);
-        //}
-
-        //public Object dequeue() {
-           // return list.removeFirst();
-        //}
-
-        //public Object first() {
-          //  return list.getFirst();
-        //}
-    //}
-//}
+}

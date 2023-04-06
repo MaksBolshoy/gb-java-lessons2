@@ -4,7 +4,7 @@ package baza.dom3;
 public class MergeSort {
 
     public static void mergeSort(int[] arr, int n) {
-        if (n < 2) {
+        if (n < 2) {//условие выхода из рекурсии обязательно прописать
             return;
         } else {
             int mid = n / 2;
@@ -17,13 +17,13 @@ public class MergeSort {
             for (int i = mid; i < n; i++) {
                 rightArr[i - mid] = arr[i];
             }
-            mergeSort(leftArr, mid);
+            mergeSort(leftArr, mid);   // вызов самого метода внутри себя
             mergeSort(rightArr, n - mid);
             merge(arr, leftArr, rightArr, mid, n - mid);
         }
     }
 
-    public static void merge(int[] arr, int[] leftArr, int[] rightArr, int leftLen, int rightLen) {
+    public static void merge(int[] arr, int[] leftArr, int[] rightArr, int leftLen, int rightLen) {//если не указывать два разделенных массива то надо обозначить длины массивов в методе
         int i = 0, j = 0, k = 0;
         while (i < leftLen && j < rightLen) {
             if (leftArr[i] <= rightArr[j]) {
