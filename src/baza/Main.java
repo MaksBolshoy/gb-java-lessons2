@@ -10,9 +10,12 @@ import baza.dom4.RemoveEvenNumbers;
 import baza.dom4.ReverseLinkedList;
 import baza.dom6.PhoneBook;
 import baza.dom6.SorteBook;
+import baza.domitog.Notebook;
 //import baza.dom4.ReverseLinkedList;
 
 import java.io.IOException;
+
+//import static baza.domitog.Notebook.buka;
 
 public class Main {
     public static void main(String[] args) throws Exception {
@@ -24,8 +27,11 @@ public class Main {
         //Ex004_ArraysMethod.bula();
         //ReverseLinkedList.reverseLinkedList();
         //MergeSort.maun();
-        PhoneBook.aibook();
-        SorteBook.sertory();
+        //PhoneBook.aibook();
+        //SorteBook.sertory();
+        //Notebook buka =new Notebook();
+        Notebook.buka();
+        //Notebook.filterNotebooks();
 
         //Queue queue = new Queue();
         //queue.getList().add(2);
