@@ -1,4 +1,4 @@
-package oop.homework.hw1.products;
+package oop.homework.hw1;
 
 
 /*
@@ -24,8 +24,8 @@ public class Main {
         //Product bread = new Product("Bread", 2, 0.5, "thing");
         Drink  drink = new Drink("Cola", 12, 1, "Liter", "1",1.5);
         drink.getName();
-        System.out.println(Program.getInfo(bread));
-        System.out.println(Program.getInfo(drink));
+        System.out.println(oop.homework.hw1.products.Program.getInfo(bread));
+        System.out.println(oop.homework.hw1.products.Program.getInfo(drink));
     }
 
 }
