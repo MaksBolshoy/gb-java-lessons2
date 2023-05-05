@@ -1,23 +1,23 @@
 package oop.homework.hw5;
 
 public class Performanse {
-    private int id;
+    private String id;
     private int studentId;
     private  SchoolSubject subject;
     private Grade grade;
 
-    public Performanse(int id, int studentId, SchoolSubject subject, Grade grade) {
-        this.id = id;
+    public Performanse( int studentId, SchoolSubject subject, Grade grade) {
+        this.id= studentId+subject.name();
         this.studentId = studentId;
         this.subject = subject;
         this.grade = grade;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
