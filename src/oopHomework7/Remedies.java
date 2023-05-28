@@ -1,6 +1,6 @@
 package oopHomework7;
 
-public interface Remedies {  //защита интерфейс
+public interface Remedies { ///защита интерфейс
 
     //String shield;
 
